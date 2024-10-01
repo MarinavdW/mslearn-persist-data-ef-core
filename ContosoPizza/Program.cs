@@ -2,7 +2,7 @@ using ContosoPizza.Services;
 using ContosoPizza.Data;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.WebHost.UseUrls("http://localhost:5201");  // Add this line
+builder.WebHost.UseUrls("http://localhost:5201"); 
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
